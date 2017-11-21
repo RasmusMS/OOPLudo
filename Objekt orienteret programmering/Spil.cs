@@ -28,11 +28,11 @@ namespace Objekt_orienteret_programmering
         {
             Console.WriteLine("Hvor mange spillere vil i være?");
 
-            while (PNr < 2 || PNr < 4)
+            while (PNr < 2 || PNr > 4)
             {
-                if (!int.TryParse(Convert.ToString(Console.ReadKey()), out this.PNr))
+                Thread.Sleep(delay);
+                if (!int.TryParse(Convert.ToString(Console.ReadLine()), out this.PNr))
                 {
-
                     Console.WriteLine(PNr);
                 }
             }
