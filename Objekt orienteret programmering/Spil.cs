@@ -34,6 +34,7 @@ namespace Objekt_orienteret_programmering
                 if (!int.TryParse(Convert.ToString(Console.ReadLine()), out this.PNr))
                 {
                     Console.WriteLine(PNr);
+                
                 }
             }
         }
