@@ -9,8 +9,9 @@ namespace Objekt_orienteret_programmering
 {
     class Spil
     {
-        private int delay = 500;
-        public int PNr = 0;
+        protected int delay = 500;
+        private int PNr = 0;
+        private int i = 0;
 
         //Constructor
         public Spil()
@@ -19,12 +20,13 @@ namespace Objekt_orienteret_programmering
             Thread.Sleep(delay);
             Console.WriteLine("Du kan finde reglerne inde på: http://www.papskubber.dk/braetspil/ludo");
             Thread.Sleep(delay);
-            PlayerNr();
+            SetPlayerNr();
+            PlayerCreation();
             TakeTurns();
         }
 
-        //Method - Antal spillere, spiller navne, spiller farve.
-        public void PlayerNr()
+        //Method - Antal spillere
+        private void SetPlayerNr()
         {
             Console.WriteLine("Hvor mange spillere vil i være?");
 
@@ -35,6 +37,21 @@ namespace Objekt_orienteret_programmering
                 {
                     Console.WriteLine(PNr);
                 
+                }
+            }
+        }
+
+        private void PlayerCreation()
+        {
+            for (i = 1; i >= 4; i++)
+            {
+                if (i >= PNr)
+                {
+
+                }
+                else
+                {
+
                 }
             }
         }

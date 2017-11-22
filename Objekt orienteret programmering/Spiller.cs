@@ -6,29 +6,37 @@ using System.Threading.Tasks;
 
 namespace Objekt_orienteret_programmering
 {
+    public enum PlayerType {Menneske, Robot}
+
     class Spiller
     {
-        public void PlayerNr()
+        public string Name;
+        public int Id;
+        public Spilbrik[] spilbrik;
+
+        //Constructor
+        public Spiller(string PlayerName, int PlayerId, PlayerType playerType, Spilbrik[] spilbrik)
         {
-            int PNr = 0;
+            this.Name = PlayerName;
+            this.Id = PlayerId;
+            this.spilbrik = spilbrik;
+            this.color = tokens[0]
+        }
 
-            do
-            {
-                Console.WriteLine("Hvor mange spillere vil i være?");
-                PNr = Convert.ToInt32(Console.ReadLine());
+        //Get method
+        public string GetName()
+        {
+            return this.Name;
+        }
 
-                if (PNr >= 2 && PNr <= 4)
-                {
+        public color color
+        {
+            get;
+        }
 
-                }
-                else
-                {
-                    Console.WriteLine("Man kan kun spille mellem 2 og 4 spillere");
-                    Console.WriteLine();
-                }
-            } while (PNr < 2 || PNr > 4);
-
-            Console.ReadKey();
+        public int GetPlayerId()
+        {
+            return this.Id;
         }
     }
 }

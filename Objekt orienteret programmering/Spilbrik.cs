@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Objekt_orienteret_programmering
 {
+    public enum color {Gul, Rød, Grøn, Blå}
+
     class Spilbrik
     {
     }
