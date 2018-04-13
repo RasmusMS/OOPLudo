@@ -1,14 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Objekt_orienteret_programmering
+﻿namespace Objekt_orienteret_programmering
 {
-    public enum color {Gul, Rød, Grøn, Blå}
-
-    class Spilbrik
+    class Token
     {
+        private readonly int Id;
+        private readonly GameColor Color;
+        private readonly TokenState State;
+        private int Position;
+
+        public Token(int TokenId, GameColor Clr, TokenState state, int TokenPosition)
+        {
+            this.Id = TokenId;
+            this.Color = Clr;
+            this.State = state;
+            this.Position = TokenPosition;
+        }
+
+        public GameColor GetColor()
+        {
+            return this.Color;
+        }
+
+        public int GetToken()
+        {
+            return this.Id;
+        }
+
+        public TokenState GetState()
+        {
+            return this.State;
+        }
+
+        public int GetPosition()
+        {
+            return this.Position
+                ;
+        }
     }
 }

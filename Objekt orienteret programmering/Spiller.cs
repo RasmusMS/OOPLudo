@@ -1,26 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Objekt_orienteret_programmering
+﻿namespace Objekt_orienteret_programmering
 {
-    public enum PlayerType {Menneske, Robot}
-
-    class Spiller
+    class Player
     {
         public string Name;
         public int Id;
-        public Spilbrik[] spilbrik;
+        public Token[] token;
+        private GameColor color;
 
         //Constructor
-        public Spiller(string PlayerName, int PlayerId, PlayerType playerType, Spilbrik[] spilbrik)
+        public Player(string PlayerName, int PlayerId, Token[] token, GameColor color)
         {
             this.Name = PlayerName;
             this.Id = PlayerId;
-            this.spilbrik = spilbrik;
-            this.color = tokens[0]
+            this.token = token;
+            this.color = color;
+        }
+
+        public Token[] GetTokens()
+        {
+            return token;
         }
 
         //Get method
@@ -29,14 +27,19 @@ namespace Objekt_orienteret_programmering
             return this.Name;
         }
 
-        public color color
+        public GameColor Color
         {
-            get;
+            get => this.color;
         }
 
         public int GetPlayerId()
         {
             return this.Id;
+        }
+
+        public string GetDescription()
+        {
+            return "Spiller #" + this.GetPlayerId() + " hedder: " + this.GetName() + " og har farven: " + this.Color;
         }
     }
 }

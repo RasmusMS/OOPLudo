@@ -5,3 +5,10 @@ C:\Users\pc\source\repos\Objekt orienteret programmering\Objekt orienteret progr
 C:\Users\pc\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\obj\Debug\Objekt orienteret programmering.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\obj\Debug\Objekt orienteret programmering.exe
 C:\Users\pc\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\obj\Debug\Objekt orienteret programmering.pdb
+C:\Users\rasm896g\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\bin\Debug\Objekt orienteret programmering.exe.config
+C:\Users\rasm896g\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\bin\Debug\Objekt orienteret programmering.exe
+C:\Users\rasm896g\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\bin\Debug\Objekt orienteret programmering.pdb
+C:\Users\rasm896g\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\obj\Debug\Objekt orienteret programmering.csprojResolveAssemblyReference.cache
+C:\Users\rasm896g\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\obj\Debug\Objekt orienteret programmering.csproj.CoreCompileInputs.cache
+C:\Users\rasm896g\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\obj\Debug\Objekt orienteret programmering.exe
+C:\Users\rasm896g\source\repos\Objekt orienteret programmering\Objekt orienteret programmering\obj\Debug\Objekt orienteret programmering.pdb
